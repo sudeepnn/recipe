@@ -6,7 +6,7 @@ const messageinput=document.getElementById("messageinput")
 const roominput=document.getElementById("roominput")
 const form=document.getElementById("form")
 
-const socket=io('https://chat-ange.onrender.com/')
+const socket=io('https://chat-angel.onrender.com')
 
 const name=prompt("Enter your Name: ");
 displaymessage("You Joined")
